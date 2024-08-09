@@ -1,0 +1,242 @@
+header{
+    margin-bottom: 60px;
+}
+
+
+/*Форма*/
+
+.filter{
+    background-color: #E5EAF8;
+    margin-bottom: 50px;
+}
+
+.form__aside{
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 0;
+}
+
+.form__aside button{
+    margin-top: 31px;
+}
+
+.form__title{
+    font-weight: 700;
+}
+
+
+.filter__label{
+    font-size: 16px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.filter__item{
+    margin-top: 15px;
+    position: relative;
+}
+
+.filter__checkbox,.filter__radio, .filter__radio_amount{
+    display: none;
+}
+
+.filter__label::before,.filter__label::after{
+    display: block;
+    position: absolute;
+    top: 1px;
+}
+
+.filter__label:hover{
+    text-decoration: underline;
+}
+
+.filter__label::before{
+    content: url(../img/toys/frame.svg);
+}
+
+.filter__label::after{
+    content: url(../img/toys/checkbox.svg);
+    opacity: 0;
+    
+}
+
+.filter__checkbox:checked + .filter__label:after{
+    opacity: 1;
+}
+
+
+
+.filter__label_radio{
+    font-size: 16px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.filter__label_radio:hover{
+    text-decoration: underline;
+}
+
+.filter__label_radio::before,.filter__label_radio::after{
+    display: block;
+    position: absolute;
+}
+
+.filter__label_radio::before{
+    content: url(../img/toys/Ellipse.svg);
+    top: 1px;
+}
+
+.filter__label_radio::after{
+    content: url(../img/toys/ellipse\ inside.svg);
+    opacity: 0;
+    top: 0px;
+    left: 4px;
+}
+
+.filter__radio:checked + .filter__label_radio:after{
+    opacity: 1;
+}
+
+
+
+.filter__list_amount{
+    display: flex;
+    margin-top: 15px;
+}
+
+.form__block{
+    position: relative;
+    width: 80px;
+    padding: 6px 28px 7px;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.form__block:hover{
+    background-color: #EDDEEB;
+    color: #877379;
+}
+
+.filter__radio_amount:checked + .form__block{
+    background-color: #F3D0DB;
+}
+
+
+
+
+/*Товары*/
+
+.goods__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px 30px;
+}
+
+.goods__content{
+    margin: 0 10px 20px;
+    font-family: "Open Sans",Arial,serif;
+    font-size: 14px;
+    line-height: 19.07px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.goods__link{
+    position: relative;
+}
+
+
+
+.goods__link::after{
+    content: 'Подробнее';
+    display: block;
+    position: absolute;
+    color: #1E0606;
+    background-color: #E5EAF8;
+    filter: drop-shadow(0px 0px 40px 0px #93030340);
+
+    font-family: Montserrat,Arial,serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 28.52px;
+    padding: 82px 13px 96px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 0;
+    opacity: 0;
+}
+
+.goods__link:hover::after{
+    opacity: 90%;
+}
+
+.goods__link:active::after{
+    opacity: 67%;
+    filter: none;
+}
+
+
+.goods__picture{
+    margin-bottom: 30px;
+}
+
+.goods__name{
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.goods__coin{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+
+
+.goods__nav{
+    display: flex;
+    margin-bottom: 70px;
+    justify-content: space-between;
+}
+
+.goods__numbers{
+    display: flex;
+}
+
+.goods__nav fieldset{
+    margin: 0 -33px;
+} 
+
+.goods__numbers li{
+    margin: 0 33px;
+}
+
+.goods__arrow, .goods__pages{
+    display: none;
+}
+
+.goods__arrow_click{
+    cursor: pointer;
+}
+
+.goods__number{
+    font-family: Montserrat,Arial,serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    cursor: pointer;
+}
+
+.goods__number:hover{
+    color: #AAAAAA;
+}
+
+.goods__pages:checked+.goods__number{
+    color: #C29974;
+}
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+header{
+    margin-bottom: 60px;
+}
+
+.contant__heading{
+    margin-bottom: 15px;
+}
+
+.contant__list{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.content__item_last-child{
+    color: #aaa;
+}
+
+.contant__item{
+    margin-right: 48px;
+    position: relative;
+}
+
+.content__item_main::after{
+    content: url(../img/contactus/arrow.svg);
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 96px;
+}
+
+
+
+.contant__form{
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: space-between;
+}
+
+.content__text{
+    width: 50%;
+}
+
+.content__text_1{
+    margin-bottom: 20px;
+}
+
+.content__text_2{
+    font-family: Montserrat,Arial,serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #C29974;
+}
+
+
+
+
+
+
+
+
+
+

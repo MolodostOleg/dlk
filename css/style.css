@@ -1,0 +1,330 @@
+header{
+    margin-bottom: 129px;
+}
+
+
+
+/*Баннер*/
+
+.banner{
+    background-color: #EEE4DB;
+    margin-bottom: 90px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.banner::before{
+    content: '01';
+    position: absolute;
+    font-family: Montserrat,Arial,serif;
+    font-size: 60px;
+    font-weight: light;
+    line-height: 73.14px;
+    color: #E3D8D0;
+    top: 17px;
+    left: 28px;
+}
+
+.banner::before::before{
+    content: '';
+    display: block;
+    width: 31px;
+    height: 3px;
+
+}
+
+.banner__title{
+    margin-bottom: 10px;
+}
+
+.banner__text{
+    padding-top: 89px;
+    padding-left: 113px;
+    max-width: 40%;
+    margin-bottom: 89px;
+}
+
+.banner__subtitle{
+    margin-bottom: 20px;
+}
+
+.banner__picture{
+    position: absolute;
+    max-width: 636px;
+    max-height: 461px;
+    left: 445px;
+    top: -89px;
+}
+
+.banner__line{
+    background-color: #C29974;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+/*Каталог*/
+
+.catalog{
+    margin-bottom: 90px;
+}
+
+.catalog__heiting{
+    margin-bottom: 30px;
+}
+
+.catalog__list{
+    display: flex;
+    margin: 0 -10px 30px;
+}
+
+.catalog__item{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    padding: 135px 140px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.catalog_picture1{
+    background: url(../img/main/catalog/boys\ \(3\).png);
+    background-color: #DBE4DB;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.catalog_picture2{
+    background: url(../img/main/catalog/present\ \(2\).png);
+    background-color: #EADDD3;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.catalog_picture3{
+    background: url(../img/main/catalog/toys\ \(3\).png);
+    background-color: #F8F2DA;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.catalog_picture4{
+    background: url(../img/main/catalog/accesuars\ \(2\).png);
+    background-color: #D5D4E1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.catalog__link{
+    color: #fff;
+    font-size: 26px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+}
+
+.catalog__link:hover{
+    text-decoration: underline;
+}
+
+.catalog__link:active{
+    text-decoration: underline;
+}
+
+.catalog div{
+    display: flex;
+}
+
+.catalog__arrow{
+    background-color: #E1F0F7;
+    border: 0;
+    margin-right: 6px;
+    cursor: pointer;
+    position: relative;
+    max-width: 37px;
+    max-height: 37px;
+    width: 100%;
+}
+
+.catalog__arrow svg{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.catalog__text{
+    margin: 0 0 0 14px;
+    max-width: 60%;
+}
+
+
+
+
+
+
+/*Доставка*/
+
+.delivery{
+    margin-bottom: 90px;
+    display: flex;
+}
+
+.delivery img{
+    margin-right: 60px;
+    max-height: 559px;
+}
+
+.delivery div{
+    padding: 30px 0 45px 0;
+}
+
+.delivery__head{
+    margin-bottom: 6px;
+    padding-left: 60px;
+    margin-top: 0;
+}
+
+.delivery ul{
+    margin-bottom: 13px;
+}
+
+.delivery__button{
+    border:0;
+    background-color: #fff;
+    padding-top: 11px;
+    padding: 11px 135px 11px 60px;
+    cursor: pointer;
+}
+
+.delivery__button:focus{
+    font-weight: 700;
+    background-color: #E1F0F7;
+}
+
+.delivery__text{
+    padding-left: 60px;
+    max-width: 84%;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.delivery a{
+    margin-left: 60px;
+    margin-bottom: 0;
+}
+
+
+
+
+/*Партнеры*/
+.partners{
+    margin-bottom: 92px;
+}
+
+.partners ul{
+    display: flex;
+    margin:0 -64px
+}
+
+.partners__item{
+    margin: 0 64px;
+}
+
+
+
+
+
+/*О нас*/
+.additional{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 58px;
+    position: relative;
+}
+
+.about-us{
+    justify-content: start;
+    margin-right:57px;
+    padding-left: 30px;
+    padding-bottom: 35px;
+    position: relative;
+}
+
+.about-us::after{
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: #E1F0F7;
+    left: 0;
+    top: 26px;
+    z-index: -1;
+    width: 543px;
+    height: 246px;
+}
+
+.additional__heading{
+    margin-bottom: 10px;
+}
+
+.about-us .additional__heading-2{
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.additional__text{
+    margin-bottom: 20px;
+    max-width: 80%;
+}
+
+.contacts{
+    padding: 0 30px;
+    position: relative;
+}
+
+.contacts::after{
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: #E1F0F7;
+    left: 0;
+    top: 26px;
+    z-index: -1;
+    width: 542px;
+    height: 209px;
+}
+
+.map{
+    max-width: 483px;
+    max-height: 196px;
+    border: none;
+}
+
+.contacts .additional__heading{
+    margin-bottom: 20px;
+}
+
